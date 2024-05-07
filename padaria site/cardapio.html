@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Gonzaga</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff3e0; 
+        }
+
+        header {
+            background-color: #8d6e63; 
+            text-align: center;
+            padding: 20px;
+            color: #fff; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #a1887f; 
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff; 
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #ffe0b2; 
+            background-color: #4e342e; 
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: #4e342e; 
+            color: #fff; 
+            text-align: center;
+            padding: 20px;
+        }
+
+        
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .product-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Padaria do Seu João</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="padaria.html">Início</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+    <img class="logo" src="logo.png" alt="Logo da Padaria" width="100">
+    <main>
+        <section>
+            <h2>Cardápio</h2>
+            <ul>
+                <li>Pães:</li>
+                <ul>
+                    <li><img class="product-image" src="pao.jpeg" alt="Pão Francês"> Pão Francês - R$ 5,00</li>
+                    <li><img class="product-image" src="pao_integral.jpeg" alt="Pão Integral"> Pão Integral - R$ 6,00</li>
+                    <li><img class="product-image" src="pao_forma.jpg" alt="Pão de Forma"> Pão de Forma - R$ 4,00</li>
+                </ul>
+                <li>Bolos:</li>
+                <ul>
+                    <li><img class="product-image" src="bolo.jpg" alt="Bolo de Chocolate"> Bolo de Chocolate - R$ 15,00</li>
+                    <li><img class="product-image" src="bolo_cenoura.webp" alt="Bolo de Cenoura"> Bolo de Cenoura - R$ 12,00</li>
+                    <li><img class="product-image" src="bolo_laranja.jpeg" alt="Bolo de Laranja"> Bolo de Laranja - R$ 13,00</li>
+                </ul>
+                <li>Salgados:</li>
+                <ul>
+                    <li><img class="product-image" src="coxinha.jpg" alt="Coxinha"> Coxinha - R$ 4,00</li>
+                    <li><img class="product-image" src="empada.jpeg" alt="Empada"> Empada - R$ 3,50</li>
+                    <li><img class="product-image" src="enroladinho.jpg" alt="Enroladinho de Salsicha"> Enroladinho de Salsicha - R$ 3,00</li>
+                </ul>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Padaria Gonzaga</p>
+    </footer>
+</body>
+</html>
